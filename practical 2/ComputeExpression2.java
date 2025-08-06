@@ -1,0 +1,14 @@
+public class ComputeExpression2 {
+    public static void main(String[] args) {
+        double a= 7.5;
+        double b= 2.5;
+        double c= 1.5;
+        double d= 3;
+        double e= 4;
+        double f= 2.5;
+        double result=((a*b)-(c*d)) /((e-f));
+        System.out.println("The result of(7.5*2.5)-(1.5*3)) /((4-2.5) is  ");
+        System.out.println(result);  
+
+    }
+}
